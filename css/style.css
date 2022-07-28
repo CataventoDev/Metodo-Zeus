@@ -195,7 +195,6 @@
     }
 
     .rotacao{
-        transform: rotate(0deg);
         animation:giral 1s;
         animation-fill-mode: forwards;
     }
