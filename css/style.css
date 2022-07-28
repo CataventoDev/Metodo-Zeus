@@ -191,8 +191,21 @@
     .seta{
         width: 20%;
         margin: 0 auto; 
-        margin-top: 2rem;       
+        margin-top: 2rem;   
     }
+
+    .rotacao{
+        transform: rotate(0deg);
+        animation:giral 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes giral {
+        form{transform:rotate(0deg);}
+        
+        to{transform:rotate(180deg);}
+    }
+
     
 
 
