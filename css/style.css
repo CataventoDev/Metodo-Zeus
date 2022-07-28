@@ -216,7 +216,7 @@
         width: calc(100vw --);
         background-color: blueviolet;
         height: 200px;
-        display: flex;
+        display: nonee;
         justify-content: center;
     }
     .stopwatch-area{
