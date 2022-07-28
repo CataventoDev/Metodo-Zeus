@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Método Zeus</title>
+</head>
+<body>
+
+    <!--Topo-->
+
+        <header class="banner-background">
+            <div class="banner-background--int">
+
+                <div class="banner-background--area container">
+                
+                    <!--Lado Esquerdo-->
+    
+                        <div class="banner-background--area-left">
+
+                            <div class="logo">
+                                <img src="img/LOGO qualidade baixa.png" alt="">
+                            </div>
+                            <!--Titulo-->
+                            <div class="title">
+                                <h1>Veja <strong>AGORA</strong> o segredo de como</br> as pessoas estão ganhando mais de</br> <strong>R$3.000</strong> por mê
+                                    com esse NOVO MÉTODO no Marketing Digital.  </br></br><strong>Aulão 100% Online e Gratuito</strong>!
+                                </h1>
+                            </div>
+                            <div class="subtitle">
+                                Preencha os dados abaixo e tenha acesso EXCLUSIVO AGORA!
+                            </div>
+                            <!--Formulario-->
+                            <form method="post" action="https://webhook.sellflux.app/webhook/v2/form/lead/5cc4bb753030a3d804351b2dfec0d8b5?redirect_url=https%3A%2F%2Fmetodozeus.com%2Fobrigado">
+                                <input type="text" id="name" name="name" value="" placeholder="Seu Nome:"><br><br>
+                                <input type="text" id="email" name="email" value="" placeholder="Digite seu melhor e-mail:" required><br><br>
+                                <input type="tel" class="form-control" id="tel" name="phone" maxlength="15" placeholder="WhatsApp com DDD:" required><br><br><br>
+                                <script type="text/javascript">
+                                const tt = document.querySelectorAll("#tel");
+                                for (var i = 0; i < tt.length; i++) {
+                                    let tel = tt[i]
+                                    let mascaraTelefone = (valor) => {
+                                    valor = valor.replace(/\D/g, "")
+                                    valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+                                    valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+                                    tel.value = valor
+                                    }
+                                    tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value))
+                                    tel.addEventListener('change', (e) => mascaraTelefone(e.target.value))
+                                }
+                                </script>
+                                <div class="btn-area">
+                                    <input class="btn" type="submit" value="QUEO VER A AULA AGORA!"> 
+                                    <p><strong>O tempo está acabando!</strong></p>
+                                </div>   
+                                <img class="seta" src="img/SETA PARA BAIXO.png" alt="">
+                            </form>
+                            
+                        </div>
+                    <!--Lado Direita-->
+                        
+                        <div class="area-rigth">
+                            <div class="logo2">
+                                <img src="img/LOGO qualidade baixa.png" alt="">
+                            </div>
+    
+                            <div class="banner-background--area-rigth">
+                                <img src="img/eduardo png.png" alt="">
+                            </div>
+                        </div>
+
+                </div>
+
+            </div>
+                
+            </div>
+        </header>
+        
+    <main>
+        <!--Cronometro-->
+    
+            <section id="stopwatch" class="container">
+                <div class="stopwatch-area">
+                    <div id="stop01"></div>
+                    <div id="stop02"></div>
+                </div>
+            </section>
+
+        
+    </main>
+</body>
+</html>
