@@ -271,7 +271,7 @@
                 .banner-background--area-rigth img{
                     width: 30rem; 
                     margin-top: -3em;
-                    margin-left: -0rem;
+                    margin-left: 1rem;
                 }
 
         form{
@@ -302,7 +302,7 @@
         }
         .title{
             margin-left: 0.3rem;
-            margin-right: 2rem;
+            margin-right: 0.3rem;
         }
         
         .subtitle{
@@ -313,15 +313,17 @@
 
 
 @media (max-width:550px) {
+    
     .title {
         width: 100%;
-        padding-right: 2rem;
-        padding-left: 2.2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-top: rem;
     }
     .title h1{
-        font-size:1em;
+        font-size:1.2em;
     }
-
+    
     form .btn-area{
         width: 60%;
     }
@@ -334,17 +336,16 @@
         }
     
 }
-@media (max-width:350px){
+@media (max-width:320px){
 
     .title {
         width:100% ;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        
     }
 
     .title h1{
-        font-size:1rem;
-        margin-left: 20px;
+        font-size:1em;
+        
     }
 
     form .btn-area{
