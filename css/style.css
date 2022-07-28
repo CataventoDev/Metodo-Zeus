@@ -192,11 +192,12 @@
         width: 20%;
         margin: 0 auto; 
         margin-top: 2rem;   
+        animation:giral 1s;
+        animation-fill-mode: forwards;
     }
 
     .rotacao{
-        animation:giral 1s;
-        animation-fill-mode: forwards;
+        
     }
 
     @keyframes giral {
