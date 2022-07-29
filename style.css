@@ -179,6 +179,11 @@
         width: 60%;
         line-height: 1.5;
     }
+    form .btn{
+        width: 100%;
+        font-size: 1.0em;
+    }
+    
     form .btn-area p{
         color: white;
         margin-top: 10px;
@@ -343,7 +348,7 @@
         }
         form .btn{
             width: 100%;
-            font-size: 1.2em;
+            font-size: 1.0em;
         }
         form input{
             width: 60%;
