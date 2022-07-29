@@ -31,18 +31,18 @@
     header{
         width: calc(100vw - );
         height: auto;   
-        background-image:url("../img/fundo.webp");
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-        background-position: ;     
+            
     }
 
 
     .banner-background--int{
-        
-        
-        
+        width: calc(100vw -);
+        overflow: hidden;
+        background-image:url("../img/fundo2.webp");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-position:100% ; 
     }
     
     
