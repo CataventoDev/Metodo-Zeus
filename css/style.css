@@ -32,20 +32,21 @@
 
     header{
         width: calc(100vw - );
-        height: auto;        
-    }
+        height: auto;   
+        overflow: hidden;
+        background-image:url("../img/fundo2.webp");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        background-position: ;
+    }     
+
 
 
 
     .banner-background--int{
         width:calc(100vw - 1px);
         height: ;
-        overflow: hidden;
-        background-image:url("");
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-        background-position: ;
     }
     
     
