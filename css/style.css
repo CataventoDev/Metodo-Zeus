@@ -7,6 +7,10 @@
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
     }
+    @font-face{
+        font-family: 'Poppins', sans-serif;
+        src:url('../font/Poppins-Medium.ttf');
+    }
     :root{
         --cor-amarelo :#C5AF00;
         --cor-amarelo2:#9E8006;
@@ -32,6 +36,7 @@
 
     .banner-background--int{
         width:calc(100vw -);
+        height: ;
         overflow: hidden;
         background-image:url("../img/fundo2.webp");
         background-repeat: no-repeat;
