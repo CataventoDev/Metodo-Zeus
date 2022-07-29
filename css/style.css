@@ -38,10 +38,10 @@
 
 
     .banner-background--int{
-        width:calc(100vw -);
+        width:calc(100vw - 1px);
         height: ;
         overflow: hidden;
-        background-image:url("../img/fundo.webp");
+        background-image:url("");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -383,7 +383,7 @@
         width: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
-        margin-top: rem;
+        margin-top: ;
     }
     .title h1{
         font-size:1.2em;
@@ -398,21 +398,7 @@
         }
         .btn-area strong{
             font-size: 1em;
-        }
-
-
-        /*
-        .banner-background--int{
-            width:calc(100vw -);
-            height: ;
-            overflow: hidden;
-            background-image:url("../img/fundo.webp");
-            background-repeat: no-repeat;
-            background-position: top;
-            background-size: cover;
-            background-position: ;
-        }
-        */
+        }        
     
 }
 @media (max-width:320px){
