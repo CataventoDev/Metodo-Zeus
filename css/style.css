@@ -63,6 +63,7 @@
 
     .banner-background--area-left .logo img{
         width: 60%;
+        height: auto;
         margin-top: -rem;
     }
 
@@ -118,6 +119,7 @@
     }
     .banner-background--area-rigth img{
         width: 56rem; 
+        height: auto;
         margin-top: 1em;
         margin-left: -10rem;
     }
@@ -190,6 +192,7 @@
 
     .seta{
         width: 20%;
+        height: auto;
         margin-left: 18% ; 
         margin-top: 2rem;   
         animation:giral 1s;
@@ -278,6 +281,7 @@
         /*logo 01*/
         .banner-background--area-left .logo img{
             width: 60%;
+            height: auto;
             display: none;
         }
 
@@ -291,7 +295,7 @@
         .logo2 img{
             width: 35%; 
             display: flex;
-            
+            height: auto;
         }
 
 
@@ -317,6 +321,7 @@
                 }
                 .banner-background--area-rigth img{
                     width: 30rem; 
+                    height: auto;
                     margin-top: -3em;
                     margin-left: 1rem;
                 }
