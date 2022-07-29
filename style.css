@@ -183,7 +183,7 @@
         width: 100%;
         font-size: 1.0em;
     }
-    
+
     form .btn-area p{
         color: white;
         margin-top: 10px;
@@ -195,6 +195,11 @@
         outline:0;
         
     }
+
+    .btn:hover{
+        cursor: pointer;
+    }
+
 
     .btn-area p{
         text-align: center;
