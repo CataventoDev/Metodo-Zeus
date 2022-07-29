@@ -33,7 +33,7 @@
     .banner-background--int{
         width:calc(100vw -);
         overflow: hidden;
-        background-image:url("../img/fundo2.jpg");
+        background-image:url("../img/fundo2.webp");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
